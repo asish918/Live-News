@@ -1,5 +1,5 @@
 import React from "react";
-import NavLinks from "./NavLink";
+import NavLinks from "./NavLinks";
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import Link from "next/link";
 
