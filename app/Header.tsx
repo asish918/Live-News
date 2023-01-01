@@ -1,5 +1,6 @@
 import React from "react";
 import NavLinks from "./NavLinks";
+import SearchBox from "./SearchBox";
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import Link from "next/link";
 
@@ -21,6 +22,9 @@ const Header = () => {
 
             {/* Navlinks */}
             <NavLinks />
+
+            {/* SearchBox */}
+            <SearchBox />
         </header>
     )
 }
