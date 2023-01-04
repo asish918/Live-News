@@ -4,7 +4,6 @@ import React from "react";
 import NavLink from "./NavLink";
 import { categories } from '../constants'
 import { usePathname } from 'next/navigation'
-import path from "path";
 
 const NavLinks = () => {
     const pathname = usePathname();
